@@ -353,7 +353,7 @@
                 W = a.p + "static/media/favicon.ca35646e.png";
 
             function J(e) {
-                if ("safuu" == e) return function(e) {
+                if ("SAFTI" == e) return function(e) {
                     var t = window.location.origin;
                     return "".concat(t, "/").concat(e)
                 }(W);
@@ -668,7 +668,7 @@
                     children: [Object(E.jsx)("div", {
                         className: "time-menu-btn",
                         children: Object(E.jsx)("p", {
-                            children: "SAFUU"
+                            children: "SAFTI"
                         })
                     }), Object(E.jsx)(me.a, {
                         className: "time-menu-popper",
@@ -699,7 +699,7 @@
                                             className: "divider"
                                         }), Object(E.jsx)("div", {
                                             className: "tooltip-item",
-                                            onClick: (t = "SAFUU", a = A, Object(u.a)(l.a.mark((function e() {
+                                            onClick: (t = "SAFTI", a = A, Object(u.a)(l.a.mark((function e() {
                                                 var n;
                                                 return l.a.wrap((function(e) {
                                                     for (;;) switch (e.prev = e.next) {
@@ -734,7 +734,7 @@
                                                 ])
                                             })))),
                                             children: Object(E.jsx)("p", {
-                                                children: "SAFUU"
+                                                children: "SAFTI"
                                             })
                                         })]
                                     })]
@@ -1372,7 +1372,7 @@
                             children: [Object(E.jsxs)("div", {
                                 className: "branding-header",
                                 children: [Object(E.jsx)(fe.a, {
-                                    href: "https://safuu.com",
+                                    href: "https://safutitano.com",
                                     target: "_blank",
                                     children: Object(E.jsx)("img", {
                                         alt: "logo",
@@ -1891,7 +1891,7 @@
                                                 className: "dashboard-individual-card",
                                                 children: [Object(E.jsx)("p", {
                                                     className: "card-title",
-                                                    children: "SAFUU Insurance Fund Value"
+                                                    children: "SAFTI Insurance Fund Value"
                                                 }), Object(E.jsx)("p", {
                                                     className: "card-value",
                                                     children: e ? Object(E.jsx)(ta.a, {
@@ -1917,7 +1917,7 @@
                                                     children: "# Value of FirePit"
                                                 }), Object(E.jsx)("p", {
                                                     className: "card-value",
-                                                    children: (new Intl.NumberFormat).format(Number("".concat(L(t.firepitBalance, 2)))) + " SAFUU"
+                                                    children: (new Intl.NumberFormat).format(Number("".concat(L(t.firepitBalance, 2)))) + " SAFTI"
                                                 })]
                                             })
                                         }), Object(E.jsx)(ea.a, {
@@ -2153,7 +2153,7 @@
                                                             className: "calculator-card-action-area-inp-wrap",
                                                             children: [Object(E.jsx)("p", {
                                                                 className: "calculator-card-action-area-inp-wrap-title",
-                                                                children: "SAFUU Amount"
+                                                                children: "SAFTI Amount"
                                                             }), Object(E.jsx)(ia.a, {
                                                                 type: "number",
                                                                 placeholder: "Amount",
@@ -2331,7 +2331,7 @@
                                                         children: e ? Object(E.jsx)(ta.a, {
                                                             width: "80px"
                                                         }) : Object(E.jsxs)(E.Fragment, {
-                                                            children: [N, " SAFUU"]
+                                                            children: [N, " SAFTI"]
                                                         })
                                                     })]
                                                 }), Object(E.jsxs)("div", {
@@ -2407,7 +2407,7 @@
                                                     },
                                                     children: ["$", L(Number(n.balances.safuu) * i.marketPrice, 2)]
                                                 }), Object(E.jsxs)(ua.a, {
-                                                    children: [n.balances.safuu, " SAFUU"]
+                                                    children: [n.balances.safuu, " SAFTI"]
                                                 })]
                                             })
                                         })
@@ -2497,7 +2497,7 @@
                                             children: a ? Object(E.jsx)(ta.a, {
                                                 width: "80px"
                                             }) : Object(E.jsxs)(E.Fragment, {
-                                                children: [L(2355e-7 * Number(n.balances.safuu), 5), " SAFUU"]
+                                                children: [L(2355e-7 * Number(n.balances.safuu), 5), " SAFTI"]
                                             })
                                         })]
                                     }), Object(E.jsxs)(la.a, {
