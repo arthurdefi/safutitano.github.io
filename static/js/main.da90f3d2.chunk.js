@@ -683,7 +683,7 @@
                                     className: "tooltip",
                                     children: [Object(E.jsx)(fe.a, {
                                         className: "tooltip-item",
-                                        href: "https://app.bogged.finance/bsc/swap?tokenIn=BNB&tokenOut=0xE5bA47fD94CB645ba4119222e34fB33F59C7CD90",
+                                        href: "https://pancake.kiemtienonline360.com/#/swap",
                                         target: "_blank",
                                         children: Object(E.jsx)("p", {
                                             children: "Buy on Bog Swap"
@@ -1084,7 +1084,7 @@
                             component: Je
                         })
                     }), Object(E.jsx)(fe.a, {
-                        href: "https://cutt.ly/bO3G0Sn",
+                        href: "https://discord.com",
                         target: "_blank",
                         children: Object(E.jsx)(Be.a, {
                             htmlColor: "#ffffff",
@@ -1448,7 +1448,7 @@
                                             })]
                                         })
                                     }), Object(E.jsx)(fe.a, {
-                                        href: "https://app.bogged.finance/bsc/swap?tokenIn=BNB&tokenOut=0xE5bA47fD94CB645ba4119222e34fB33F59C7CD90",
+                                        href: "https://pancake.kiemtienonline360.com/#/swap",
                                         target: "_blank",
                                         className: Dt()("button-dapp-menu", {
                                             active: a
