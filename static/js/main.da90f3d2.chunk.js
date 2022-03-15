@@ -1077,7 +1077,7 @@
                             component: ke
                         })
                     }), Object(E.jsx)(fe.a, {
-                        href: "https://safuu.medium.com/",
+                        href: "https://safutitano.medium.com/",
                         target: "_blank",
                         children: Object(E.jsx)(Be.a, {
                             htmlColor: "#ffffff",
