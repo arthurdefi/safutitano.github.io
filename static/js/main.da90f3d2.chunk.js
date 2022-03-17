@@ -1366,7 +1366,7 @@
                                 className: "branding-header",
                                 children: [Object(E.jsx)(fe.a, {
                                     href: "https://safutitano.com",
-                                    target: "_blank",
+                                    // target: "_blank",
                                     children: Object(E.jsx)("img", {
                                         alt: "logo",
                                         className: "logo",
@@ -1907,7 +1907,7 @@
                                                 className: "dashboard-individual-card",
                                                 children: [Object(E.jsx)("p", {
                                                     className: "card-title",
-                                                    children: "# Value of FirePit"
+                                                    children: "# Value of Auto Supply Control"
                                                 }), Object(E.jsx)("p", {
                                                     className: "card-value",
                                                     children: (new Intl.NumberFormat).format(Number("".concat(L(t.firepitBalance, 2)))) + " SAFUU"
@@ -1923,7 +1923,7 @@
                                                 className: "dashboard-individual-card",
                                                 children: [Object(E.jsx)("p", {
                                                     className: "card-title",
-                                                    children: "$ Value of FirePit"
+                                                    children: "$ Value of Auto Supply Control"
                                                 }), Object(E.jsx)("p", {
                                                     className: "card-value",
                                                     children: e ? Object(E.jsx)(ta.a, {
@@ -1946,7 +1946,7 @@
                                                 className: "dashboard-individual-card",
                                                 children: [Object(E.jsx)("p", {
                                                     className: "card-title",
-                                                    children: "% FirePit : Supply "
+                                                    children: "% Supply Control : Supply "
                                                 }), Object(E.jsxs)("p", {
                                                     className: "card-value",
                                                     children: [L(t.firepitBalance / t.totalSupply * 100, 2), "%"]
