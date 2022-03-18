@@ -1910,7 +1910,7 @@
                                                     children: "# Value of Auto Supply Control"
                                                 }), Object(E.jsx)("p", {
                                                     className: "card-value",
-                                                    children: (new Intl.NumberFormat).format(Number("".concat(L(t.firepitBalance, 2)))) + " SAFUU"
+                                                    children: (new Intl.NumberFormat).format(Number("".concat(L(t.firepitBalance, 2)))) + " SAFTI"
                                                 })]
                                             })
                                         }), Object(E.jsx)(ea.a, {
@@ -2123,7 +2123,7 @@
                                                             children: e ? Object(E.jsx)(ta.a, {
                                                                 width: "100px"
                                                             }) : Object(E.jsxs)(E.Fragment, {
-                                                                children: [r, " SAFUU"]
+                                                                children: [r, " SAFTI"]
                                                             })
                                                         })]
                                                     })
@@ -2324,7 +2324,7 @@
                                                         children: e ? Object(E.jsx)(ta.a, {
                                                             width: "80px"
                                                         }) : Object(E.jsxs)(E.Fragment, {
-                                                            children: [N, " SAFUU"]
+                                                            children: [N, " SAFTI"]
                                                         })
                                                     })]
                                                 }), Object(E.jsxs)("div", {
@@ -2489,7 +2489,7 @@
                                             children: a ? Object(E.jsx)(ta.a, {
                                                 width: "80px"
                                             }) : Object(E.jsxs)(E.Fragment, {
-                                                children: [L(2355e-7 * Number(n.balances.safuu), 5), " SAFUU"]
+                                                children: [L(2355e-7 * Number(n.balances.safuu), 5), " SAFTI"]
                                             })
                                         })]
                                     }), Object(E.jsxs)(la.a, {

@@ -2325,7 +2325,7 @@
                                                     className: "data-row",
                                                     children: [Object(E.jsx)("p", {
                                                         className: "data-row-name",
-                                                        children: "SAFUU rewards estimation"
+                                                        children: "SAFTI rewards estimation"
                                                     }), Object(E.jsx)("p", {
                                                         className: "data-row-value",
                                                         children: e ? Object(E.jsx)(ta.a, {
