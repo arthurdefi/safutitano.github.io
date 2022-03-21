@@ -2103,7 +2103,7 @@
                                                             children: e ? Object(E.jsx)(ta.a, {
                                                                 width: "100px"
                                                             }) : Object(E.jsxs)(E.Fragment, {
-                                                                children: [new Intl.NumberFormat("en-US").format(Number(i)), "%"]
+                                                                children: [ "392,537%"]
                                                             })
                                                         })]
                                                     })
@@ -2521,7 +2521,7 @@
                                             children: a ? Object(E.jsx)(ta.a, {
                                                 width: "80px"
                                             }) : Object(E.jsxs)(E.Fragment, {
-                                                children: [.02355, "%"]
+                                                children: [.00236, "%"]
                                             })
                                         })]
                                     }), Object(E.jsxs)(la.a, {
@@ -2553,7 +2553,7 @@
                                             children: a ? Object(E.jsx)(ta.a, {
                                                 width: "80px"
                                             }) : Object(E.jsxs)(E.Fragment, {
-                                                children: [L(100 * i.fiveDayRate, 2), "%"]
+                                                children: [L(12), " %"]
                                             })
                                         })]
                                     }), Object(E.jsxs)(la.a, {
