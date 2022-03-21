@@ -1059,28 +1059,28 @@
                         href: "https://github.com/safutitano/safutitano.github.io",
                         target: "_blank",
                         children: Object(E.jsx)(Be.a, {
-                            htmlColor: "#ffffff",
+                            htmlColor: "#FFF",
                             component: De
                         })
                     }), Object(E.jsx)(fe.a, {
                         href: "https://twitter.com/safutitano",
                         target: "_blank",
                         children: Object(E.jsx)(Be.a, {
-                            htmlColor: "#ffffff",
+                            htmlColor: "#FFF",
                             component: ke
                         })
                     }), Object(E.jsx)(fe.a, {
                         href: "https://safutitano.medium.com/",
                         target: "_blank",
                         children: Object(E.jsx)(Be.a, {
-                            htmlColor: "#ffffff",
+                            htmlColor: "#FFF",
                             component: Je
                         })
                     }), Object(E.jsx)(fe.a, {
                         href: "https://discord.com/invite/bJbQFPeUhr/",
                         target: "_blank",
                         children: Object(E.jsx)(Be.a, {
-                            htmlColor: "#ffffff",
+                            htmlColor: "#FFF",
                             component: $e
                         })
                     })]
@@ -2395,7 +2395,7 @@
                                                     variant: "h4",
                                                     style: {
                                                         fontFamily: "Montserrat Medium",
-                                                        color: "#61ce70",
+                                                        color: "#133E36",
                                                         fontWeight: "bolder"
                                                     },
                                                     children: ["$", L(Number(n.balances.safuu) * i.marketPrice, 2)]
@@ -2420,12 +2420,12 @@
                                                     variant: "h4",
                                                     style: {
                                                         fontFamily: "Montserrat Medium",
-                                                        color: "#61ce70",
+                                                        color: "#133E36",
                                                         fontWeight: "bolder"
                                                     },
-                                                    children: [(new Intl.NumberFormat).format(Number("".concat(L(100 * i.currentApy, 2)))), "%"]
+                                                    children: [(new Intl.NumberFormat).format(Number("".concat(L(100 * 3925.37, 2)))), "%"]
                                                 }), Object(E.jsxs)(ua.a, {
-                                                    children: ["Daily ROI ", L(100 * i.dailyRate, 2), "%"]
+                                                    // children: ["Daily ROI ", L(100 * i.dailyRate, 2), "%"]
                                                 })]
                                             })
                                         })
@@ -2445,12 +2445,12 @@
                                                     variant: "h4",
                                                     style: {
                                                         fontFamily: "Montserrat Medium",
-                                                        color: "#61ce70",
+                                                        color: "#133E36",
                                                         fontWeight: "bolder"
                                                     },
                                                     children: "00:".concat(r[2], ":").concat(r[3])
                                                 }), Object(E.jsx)(ua.a, {
-                                                    children: "You will earn money soon"
+                                                    children: ""
                                                 })]
                                             })
                                         })
@@ -2976,13 +2976,13 @@
                             backgroundColor: "#43a047"
                         },
                         typography: {
-                            color: "#FFFFFF",
+                            color: "#54F7CF",
                             fontFamily: "Montserrat SemiBold"
                         },
                         actionRoot: {
                             padding: "8px 8px 8px 16px",
                             justifyContent: "space-between",
-                            color: "#FFFFFF"
+                            color: "#54F7CF"
                         },
                         icons: {
                             marginLeft: "auto"
@@ -2993,7 +2993,7 @@
                             transition: e.transitions.create("transform", {
                                 duration: e.transitions.duration.shortest
                             }),
-                            color: "#FFFFFF"
+                            color: "#54F7CF"
                         },
                         expandOpen: {
                             transform: "rotate(180deg)"
