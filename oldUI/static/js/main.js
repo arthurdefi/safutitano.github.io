@@ -370,6 +370,7 @@
                                     return "https://api.coingecko.com/api/v3/simple/price?ids=binancecoin&vs_currencies=usd", e.next = 3, V.a.get("https://api.coingecko.com/api/v3/simple/price?ids=binancecoin&vs_currencies=usd");
                                 case 3:
                                     t = e.sent, a = t.data, z.BNB = a.binancecoin.usd;
+                                    
                                 case 6:
                                 case "end":
                                     return e.stop()
@@ -579,7 +580,8 @@
                                         firepitBalance: S,
                                         treasuryValue: E,
                                         currentApy: H
-                                    });
+                                    }
+                                    );
                                 case 77:
                                 case "end":
                                     return e.stop()
@@ -1825,7 +1827,7 @@
                                                     className: "card-value",
                                                     children: e ? Object(E.jsx)(ta.a, {
                                                         width: "100px"
-                                                    }) : "$".concat(L(t.marketPrice, 2))
+                                                    }) : "$".concat(L(t.marketPrice*1e22, 21, console.log("fhfh")))
                                                 })]
                                             })
                                         }), Object(E.jsx)(ea.a, {
@@ -1934,6 +1936,7 @@
                                                         maximumFractionDigits: 0,
                                                         minimumFractionDigits: 0
                                                     }).format(t.firepitBalance * t.marketPrice)
+                                                    
                                                 })]
                                             })
                                         }), Object(E.jsx)(ea.a, {
@@ -2398,7 +2401,7 @@
                                                         color: "#133E36",
                                                         fontWeight: "bolder"
                                                     },
-                                                    children: ["$", L(Number(n.balances.safuu) * i.marketPrice, 2)]
+                                                    children: ["$", L(Number(n.balances.safuu * i.marketPrice), 2,console.log("i m " +i.marketPrice), console.log(i))]
                                                 }), Object(E.jsxs)(ua.a, {
                                                     children: [n.balances.safuu, " SAFTI"]
                                                 })]
@@ -2473,7 +2476,7 @@
                                             children: a ? Object(E.jsx)(ta.a, {
                                                 width: "80px"
                                             }) : Object(E.jsxs)(E.Fragment, {
-                                                children: ["$", L(i.marketPrice, 2)]
+                                                children: ["$", L(i.marketPrice,2)]
                                             })
                                         })]
                                     }), Object(E.jsxs)(la.a, {
@@ -2505,7 +2508,8 @@
                                             children: a ? Object(E.jsx)(ta.a, {
                                                 width: "80px"
                                             }) : Object(E.jsxs)(E.Fragment, {
-                                                children: ["$", L(2355e-7 * Number(n.balances.safuu) * i.marketPrice, 5), " "]
+                                                children: ["$", L(2355e-7 * Number(n.balances.safuu) * i.marketPrice, 5), " " ]
+                                                
                                             })
                                         })]
                                     }), Object(E.jsxs)(la.a, {
@@ -2776,7 +2780,7 @@
                     decimals: 6
                 }, {
                     name: "USDT.e",
-                    address: "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+                    address: "0x55d398326f99059fF775485246999027B3197955",
                     img: a.p + "static/media/USDT.e.006177e6.png",
                     decimals: 6
                 }, {
@@ -2786,7 +2790,7 @@
                     decimals: 18
                 }, {
                     name: "WAVAX",
-                    address: "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+                    address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
                     img: a.p + "static/media/WAVAX.f39a652e.png",
                     decimals: 18
                 }, {
@@ -2801,7 +2805,7 @@
                     decimals: 18
                 }, {
                     name: "WETH.e",
-                    address: "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+                    address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
                     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAMAAABlApw1AAACBFBMVEUAAADv7//09PTy8vXx9Pbz9Pjy9ffy9fjy9Pfx9Pfy9Pby9Pfx8/Xz8/Py8vTx9Pjv7/fy9Pfy9Pfy9ffz9ffy8/b09vjy9fXz9Pb09/ry9Pjz9fnv7/Tv9PTk5uiCg4Ssra9jZGWQkpTIycw7PDza296QkZIvMDBgYWK6vL21t7lHSUnm6OqEhojNz9Ly9PSztLednqB4envBw8Xv8vWen6Hv8/NsbW7x8/bP0NOpqqyJiovz8/dUVVXv7++lpqjy8/jz9Pbx9PZ9fn9bXF01NjYdHh4sLCw5Ojo0NTUwMTETExNucHBISElgYWE+Pz9zdHUaGhomJyfv7/oWFxckJSUtLi7x8vV4eXpRUlMhISHx8/Z1d3fy9PdnaGlERkaEhYZ6fHxrbW1AQUGDhYVWV1cqKipERUVOT1BcXV6LjI1iY2QyMzNMTU7Fx8lLTU2Sk5ba3N+HiIpKS0zW2Nt7fH4vLy+6vL6rrK6ChIXk5umfoKJYWVpXWVmQkpPd3+GTlJaXmJnOz9Lm5+qFhoepq6y6u77r7fB1dneRkpQ7PT2EhoeQkZPIysxISUnW2NrW19uztLa3uLqXmJp4enpTVVVvcHKsrrBmZ2g8PT2eoKJsbm+en6A9PT7v8/dsbm7BwsXd3+KEhYfx8/fy9fbP0dPx9Pjx8/bv8veJiozy9fnv8vQEFD2BAAAArHRSTlMAEDBQcI+fr7/f7/+AQGDPIJ9g33+vb1CPX+9/MDD//////////////////////2D/////UP9A/5D///9A/xD/r8/P/////////////////////zD///+g////sP/f/////////////////////////////////////////////////////////////////////////////////////0D/////gK//cO9g/1BgIk4dsgAACKdJREFUeNrM1YV1wEAMA9BjsMJOGfYfszBA0YnyJ5De6fmcPR9iyqW23gWfpPfWypBi8O7afEi5Cb4gLafxouGnPOOH5hyXa4Ufc8cvzWu8SvrUBH9Tt4U/nIZ/aZt3PGMW/JusI206MKIbIf4uMKTr4s60ZIG1EyssKwwYVGCMh19hFxxI09GHU3EwjUeu5wYGeDu6FRig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",
                     decimals: 18
                 }, {
