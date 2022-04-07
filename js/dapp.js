@@ -194,11 +194,21 @@ async function getMarketCap() {
     document.getElementById("price3").innerHTML = "$" + Number(priceJson.data.price).toFixed(3);
     document.getElementById("input_price").value = Number(priceJson.data.price).toFixed(2);
     Promise.all([
+        //token contract
         fetch('https://api.bscscan.com/api?module=stats&action=tokensupply&contractaddress=0x84952dd90cdc57170b13d2291a8afcedc8f97c71&apikey=YBYQ66DDHEZIURYRX4QMZRJ6RGIMISU1NM'),
+        
+        //token contract and supply control address.
         fetch('https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=0x84952dd90cdC57170b13D2291A8afCEdC8F97c71&address=0x4D69f806EA93222474cd82750BCcCB5ecBcb5A7b&tag=latest&apikey=CQMXE3Z94YNSY2HMF6IJVTVWMW5Z9DCH9A'),
+        
+        //wbnb address and LP pairing address
         fetch('https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c&address=0x690Dd96cf30B4B0773F763dd7627F7C365C57BdF&tag=latest&apikey=CQMXE3Z94YNSY2HMF6IJVTVWMW5Z9DCH9A'),
+        
+        //wbnb address 
         fetch('https://api.pancakeswap.info/api/v2/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'),
+        
+        //treasury fund address and RiskFreeFund
         fetch('https://api.bscscan.com/api?module=account&action=balancemulti&address=0x0fa39Ea67Fa2bFF4d3581c1EE83269fdA6C422a1,0x9c5345a3C7B5fab558eE1ed2779D3c3d3942C639&tag=latest&apikey=CQMXE3Z94YNSY2HMF6IJVTVWMW5Z9DCH9A'),
+        
         fetch('js/data/busdTreasury.json'),
         fetch('js/data/busdInsurance.json'),
         fetch('js/data/unicrypt.json')
